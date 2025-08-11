@@ -3,6 +3,7 @@ import Card from "./cards";
 import Nav from "./nav";
 import Pagetitle from "./pagetitle"
 const cardTitle = ["card1", "card2", "card3", "card4"]
+import Foot from "./footer"
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -24,6 +25,7 @@ const Home = () => {
 					}
 				)}
 				</div>
+				<Foot/>
 			</div>
 		</div>)
 		
